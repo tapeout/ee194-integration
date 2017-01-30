@@ -1,0 +1,15 @@
+[submodule "plsi"]
+	path = plsi
+	url = git://github.com/ucb-bar/plsi.git
+[submodule "addons/core-generator/cs194-radio-chip/src/sifive-blocks"]
+	path = addons/core-generator/radiochip/src/sifive-blocks
+	url = git://github.com/sifive/sifive-blocks.git
+[submodule "addons/core-generator/cs194-radio-chip/src/cs194-radio-chip"]
+	path = addons/core-generator/radiochip/src/cs194-radio-chip
+	url = git://github.com/palmer-dabbelt/cs194-radio-chip.git
+[submodule "addons/core-generator/radiochip/src/sifive-blocks"]
+	path = addons/core-generator/radiochip/src/sifive-blocks
+	url = git://github.com/sifive/sifive-blocks.git
+[submodule "addons/core-generator/radiochip/src/cs194-radio-chip"]
+	path = addons/core-generator/radiochip/src/cs194-radio-chip
+	url = git://github.com/palmer-dabbelt/cs194-radio-chip.git

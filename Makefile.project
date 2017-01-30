@@ -1,0 +1,34 @@
+# Additional PLSI addon directories.
+ADDONS_DIR = ../addons
+CORE_GENERATOR = radiochip
+
+# The base for the Synopsys tools and the tarballs from RMgen
+SYNOPSYS_HOME = /ecad/tools/synopsys
+SYNOPSYS_RM_DIR = /ecad/tools/synopsys/rmgen
+
+# We use VCS to simulate everything
+VCS_VERSION = L-2016.06-1
+SIMULATOR = vcs
+
+# Use a new-ish Synopsys DC for synthesis
+DC_VERSION = L-2016.03-SP1
+SYNTHESIS_TOOL = dc
+
+# Use a new-ish Synopsys ICC for place-and-route
+ICC_VERSION = L-2016.03-SP1
+PAR_TOOL = icc
+
+# Various other Synopsys tools are used as part of the process
+ICV_VERSION = L-2016.06-SP2-8
+CDESIGNER_VERSION = J-2014.12-SP2-2
+CCOMPILER_VERSION = L-2016.06-SP1-2
+
+# Target the 32nm educational process, also from Synopsys
+TECHNOLOGY = saed32
+SAED32_TARBALL_DIR = /ecad/stdcells/saed32
+
+# These link to the license servers
+MGLS_LICENSE_FILE = 1717@bwrcflex-1.eecs.berkeley.edu:1717@bwrcflex-2.eecs.berkeley.edu
+export MGSL_LICENSE_FILE
+SNPSLMD_LICENSE_FILE = 1709@license.millennium.berkeley.edu
+export SNPSLMD_LICENSE_FILE
