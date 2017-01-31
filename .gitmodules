@@ -13,3 +13,6 @@
 [submodule "addons/core-generator/radiochip/src/cs194-radio-chip"]
 	path = addons/core-generator/radiochip/src/cs194-radio-chip
 	url = git://github.com/palmer-dabbelt/cs194-radio-chip.git
+[submodule "addons/core-generator/radiochip/src/digital"]
+	path = addons/core-generator/radiochip/src/digital
+	url = git@github.com:tapeout/digital.git
