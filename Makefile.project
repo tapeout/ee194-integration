@@ -14,14 +14,16 @@ SIMULATOR = vcs
 DC_VERSION = L-2016.03-SP1
 SYNTHESIS_TOOL = dc
 
-# Use a new-ish Synopsys ICC for place-and-route
+# Use a new-ish Synopsys ICC for place-and-route, and use ICV to run DRC.
 ICC_VERSION = L-2016.03-SP1
 PAR_TOOL = icc
-
-# Various other Synopsys tools are used as part of the process
 ICV_VERSION = L-2016.06-SP2-8
 CDESIGNER_VERSION = J-2014.12-SP2-2
 CCOMPILER_VERSION = L-2016.06-SP1-2
+
+# Run Formality
+FORMAL_TOOL = formality
+FORMALITY_VERSION = L-2016.03-SP1
 
 # Target the 32nm educational process, also from Synopsys
 TECHNOLOGY = saed32
