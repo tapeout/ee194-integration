@@ -7,5 +7,6 @@ RC_CORE_PROJECT = cs194_radio_chip
 
 CORE_TOP = RadioTop
 CORE_SIM_TOP = RadioHarness
+CORE_SIM_HARNESS = RadioDriver
 
 include src/addons/core-generator/rocketchip/vars.mk
